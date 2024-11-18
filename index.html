@@ -41,7 +41,17 @@
 		// Call resize once to adjust image on page load
 		window.dispatchEvent(new Event('resize'));
 	</script>
-	
+	<style>
+        /* Add hover animations */
+        .footer_social a:hover {
+            color: #f39c12; /* Hover color */
+            transform: scale(1.2); /* Slight zoom effect */
+        }
+    
+        .footer_social a {
+            text-decoration: none; /* Remove underline */
+        }
+    </style>
 </head>
 
 <body>
@@ -442,19 +452,7 @@
 				</p>
 			</div>
 		</div>
-	</footer>
-	
-	<style>
-		/* Add hover animations */
-		.footer_social a:hover {
-			color: #f39c12; /* Hover color */
-			transform: scale(1.2); /* Slight zoom effect */
-		}
-	
-		.footer_social a {
-			text-decoration: none; /* Remove underline */
-		}
-	</style>	
+	</footer>	
 	<!--================End Footer Area =================-->
 
 	<!-- Optional JavaScript -->
